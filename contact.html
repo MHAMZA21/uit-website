@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgb(49, 15, 2);">
+    <h2 align="center" style="color: darkcyan; background-color: rgb(160, 209, 160);">CONTACT-PAGE</h2><br>
+    <h3 style="color: rgb(216, 117, 137);">Contact Form</h3>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname" style="color: rgb(216, 117, 137);">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname" style="color: rgb(216, 117, 137);">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="color: rgb(216, 117, 137);">
+
+            <label for="country" style="color: rgb(216, 117, 137);">Country</label>
+            <select id="country" name="country">
+      <option value="australia">Pakistan</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+            <label for="subject" style="color: rgb(216, 117, 137);">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" style="color: rgb(216, 117, 137);"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
